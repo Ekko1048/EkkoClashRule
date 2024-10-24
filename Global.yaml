@@ -1,3 +1,12 @@
+# NAME: EkkoClashRule
+# AUTHOR: Ekko
+# REPO: https://github.com/Ekko1048/EkkoClashRule
+# UPDATED: 2024-10-24 14:16:49
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 0
+# IP-CIDR: 0
+# TOTAL: 6
+payload:
 - DOMAIN,www.googleapis.com
 - DOMAIN-SUFFIX,docs.google.com
 - DOMAIN-SUFFIX,drive.google.com
