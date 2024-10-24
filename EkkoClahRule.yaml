@@ -1,12 +1,12 @@
 # NAME: EkkoClashRule
 # AUTHOR: Ekko
 # REPO: https://github.com/Ekko1048/EkkoClashRule
-# UPDATED: 2024-10-24 17:03:57
-# DOMAIN: 359
-# DOMAIN-SUFFIX: 14648
+# UPDATED: 2024-10-24 17:29:26
+# DOMAIN: 357
+# DOMAIN-SUFFIX: 14632
 # IP-CIDR: 4161
 # PROCESS-NAME: 65
-# TOTAL: 19361
+# TOTAL: 19343
 payload:
 - DOMAIN-SUFFIX,ggpht.com
 - DOMAIN-SUFFIX,googlevideo.com
@@ -914,8 +914,6 @@ payload:
 - DOMAIN-SUFFIX,ghcr.io
 - DOMAIN-SUFFIX,git.io
 - DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
-- DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
-- DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
 - DOMAIN-SUFFIX,github.blog
 - DOMAIN-SUFFIX,github.com
 - DOMAIN-SUFFIX,github.community
@@ -1635,7 +1633,6 @@ payload:
 - DOMAIN-SUFFIX,akamaized.net
 - DOMAIN-SUFFIX,amazon.jobs
 - DOMAIN-SUFFIX,amazonaws.co.uk
-- DOMAIN-SUFFIX,amazonaws.com
 - DOMAIN-SUFFIX,amazonprimevideos.com
 - DOMAIN-SUFFIX,amazontools.com
 - DOMAIN-SUFFIX,amazontours.com
@@ -10975,7 +10972,6 @@ No payload found
 - DOMAIN-SUFFIX,disneyprivacycenter.com
 - DOMAIN-SUFFIX,disneytermsofuse.com
 - DOMAIN-SUFFIX,dlp-media.com
-- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 - DOMAIN-SUFFIX,hotstar-cdn.net
 - DOMAIN-SUFFIX,hotstar-labs.com
 - DOMAIN-SUFFIX,hotstar.com
@@ -11002,7 +10998,6 @@ No payload found
 - DOMAIN-SUFFIX,duboxcdn.com
 - DOMAIN,netflix.com.edgesuite.net
 - DOMAIN-SUFFIX,netflixdnstest10.com
-- DOMAIN-SUFFIX,us-west-2.amazonaws.com
 - IP-CIDR,107.23.255.0/26
 - IP-CIDR,108.128.160.0/23
 - IP-CIDR,108.128.162.0/24
@@ -13032,7 +13027,6 @@ No payload found
 - DOMAIN-SUFFIX,venmo.info
 - DOMAIN-SUFFIX,venmo.net
 - DOMAIN-SUFFIX,venmo.org
-- DOMAIN-SUFFIX,venmo.s3.amazonaws.com
 - DOMAIN-SUFFIX,webmoneyinfo.com
 - DOMAIN-SUFFIX,wiremoneytoirelandwithxoomeasierandcheaper.com
 - DOMAIN-SUFFIX,www-paypal.info
@@ -13217,7 +13211,6 @@ No payload found
 - PROCESS-NAME,com.tencent.ibg.joox
 - DOMAIN,wmff.warnermediacdn.com
 - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
-- DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
 - DOMAIN-SUFFIX,hbo.com.c.footprint.net
 - DOMAIN-SUFFIX,hbo.com.edgesuite.net
 - DOMAIN-SUFFIX,hbo.map.fastly.net
@@ -13281,7 +13274,6 @@ No payload found
 - DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net
 - DOMAIN-SUFFIX,linear-abematv.akamaized.net
 - DOMAIN-SUFFIX,vod-abematv.akamaized.net
-- DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
 - DOMAIN-SUFFIX,10xfotolia.com
 - DOMAIN-SUFFIX,2o7.net
 - DOMAIN-SUFFIX,acrobat.com
@@ -13455,14 +13447,11 @@ No payload found
 - DOMAIN,rthkradiopth-live.akamaized.net
 - DOMAIN,rthktv31-live.akamaized.net
 - DOMAIN,rthktv32-live.akamaized.net
-- DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 - DOMAIN,tvbtracking.azurewebsites.net
 - DOMAIN-SUFFIX,vikidash.akamaized.net
-- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
 - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
 - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
 - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
 - DOMAIN-SUFFIX,viu.now.com
 - DOMAIN,wetv.qq.com
 - DOMAIN-SUFFIX,iflix-images.akamaized.net
@@ -13489,7 +13478,6 @@ No payload found
 - DOMAIN-SUFFIX,hls.itunes.apple.com
 - DOMAIN-SUFFIX,ocsp.apple.com
 - DOMAIN,clubhouse.pubnub.com
-- DOMAIN,clubhouseprod.s3.amazonaws.com
 - DOMAIN-SUFFIX,clubhouse.com
 - DOMAIN,ap-oversea-tls.agora.io
 - DOMAIN,ap-oversea.agora.io
@@ -14857,7 +14845,6 @@ No payload found
 - DOMAIN-SUFFIX,dropboxstatic.com
 - DOMAIN-SUFFIX,dropboxusercontent.com
 - DOMAIN-SUFFIX,getdropbox.com
-- DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 - DOMAIN-SUFFIX,dtdns.com
 - DOMAIN-SUFFIX,cispaletter.com
 - DOMAIN-SUFFIX,cispaletter.org
@@ -14939,7 +14926,6 @@ No payload found
 - DOMAIN-SUFFIX,sni1dcb6gl.wpc.edgecastcdn.net
 - DOMAIN-SUFFIX,gitbook.io
 - DOMAIN-SUFFIX,gitbook.zendesk.com
-- DOMAIN-SUFFIX,gitlab-assets.oss-cn-hongkong.aliyuncs.com
 - DOMAIN-SUFFIX,gitlab-static.net
 - DOMAIN-SUFFIX,gitlab.net
 - DOMAIN-SUFFIX,gitter-static.net
@@ -15549,7 +15535,6 @@ No payload found
 - IP-CIDR,82.145.208.0/20
 - IP-CIDR,91.203.97.0/24
 - IP-CIDR6,2001:4c28::/32
-- DOMAIN-SUFFIX,a1cbafa5ea9a6480cb8e9ffba46cbad9-466059813.us-west-2.elb.amazonaws.com
 - DOMAIN-SUFFIX,addthis.com
 - DOMAIN-SUFFIX,addthis.com.edgekey.net
 - DOMAIN-SUFFIX,addthiscdn.com
@@ -16313,7 +16298,6 @@ No payload found
 - DOMAIN-SUFFIX,zee.com
 - DOMAIN-SUFFIX,zeebiz.com
 - DOMAIN-SUFFIX,zeeentertainment.com
-- DOMAIN-SUFFIX,zeenews-fonts.s3.amazonaws.com
 - DOMAIN-SUFFIX,zeenews.com
 - DOMAIN-SUFFIX,outbound.io
 - DOMAIN-SUFFIX,zdassets.com
@@ -18922,7 +18906,6 @@ No payload found
 - DOMAIN-SUFFIX,3322.net
 - DOMAIN-SUFFIX,3322.org
 - DOMAIN-SUFFIX,account.synology.com
-- DOMAIN-SUFFIX,aliyuncs.com
 - DOMAIN-SUFFIX,api.ipify.org
 - DOMAIN-SUFFIX,api.nn.ci
 - DOMAIN-SUFFIX,changeip.com
@@ -18931,7 +18914,6 @@ No payload found
 - DOMAIN-SUFFIX,checkport.synology.com
 - DOMAIN-SUFFIX,ddns.synology.com
 - DOMAIN-SUFFIX,ddnsfree.com
-- DOMAIN-SUFFIX,elb.amazonaws.com
 - DOMAIN-SUFFIX,myddns.rocks
 - DOMAIN-SUFFIX,myqnapcloud.com
 - DOMAIN-SUFFIX,nat123.com
