@@ -84,3 +84,5 @@ payload:
   - PROCESS-NAME,xdman.exe
   - PROCESS-NAME,SuperBrowser
   - PROCESS-NAME,SuperBrowser.exe
+  - PROCESS-NAME,DingTalk
+  - PROCESS-NAME,DingTalk.exe
