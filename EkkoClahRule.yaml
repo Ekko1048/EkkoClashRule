@@ -1,12 +1,12 @@
 # NAME: EkkoClashRule
 # AUTHOR: Ekko
 # REPO: https://github.com/Ekko1048/EkkoClashRule
-# UPDATED: 2024-10-28 14:24:02
-# DOMAIN: 357
-# DOMAIN-SUFFIX: 14632
-# IP-CIDR: 4161
+# UPDATED: 2024-12-02 10:13:25
+# DOMAIN: 356
+# DOMAIN-SUFFIX: 14635
+# IP-CIDR: 4158
 # PROCESS-NAME: 65
-# TOTAL: 19343
+# TOTAL: 19340
 payload:
 - DOMAIN-SUFFIX,ggpht.com
 - DOMAIN-SUFFIX,googlevideo.com
@@ -965,6 +965,7 @@ payload:
 - DOMAIN-SUFFIX,gc.apple.com
 - DOMAIN-SUFFIX,icloud-content.com
 - DOMAIN-SUFFIX,icloud-isupport.com
+- DOMAIN-SUFFIX,icloud-sandbox.com
 - DOMAIN-SUFFIX,icloud.apple.com
 - DOMAIN-SUFFIX,icloud.ch
 - DOMAIN-SUFFIX,icloud.com
@@ -2683,7 +2684,6 @@ payload:
 - DOMAIN-SUFFIX,zeeuk.com
 - DOMAIN-SUFFIX,zeriamerikes.com
 - DOMAIN-SUFFIX,zype.com
-- DOMAIN-KEYWORD,-spotify-
 - DOMAIN-KEYWORD,abematv.akamaized.net
 - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 - DOMAIN-KEYWORD,avoddashs
@@ -2701,7 +2701,7 @@ payload:
 - DOMAIN-KEYWORD,nowtv100
 - DOMAIN-KEYWORD,olevod
 - DOMAIN-KEYWORD,rthklive
-- DOMAIN-KEYWORD,spotify.com
+- DOMAIN-KEYWORD,spotify
 - DOMAIN-KEYWORD,tiktokcdn
 - DOMAIN-KEYWORD,ttvnw
 - DOMAIN-KEYWORD,tvbanywhere
@@ -9333,17 +9333,12 @@ payload:
 - DOMAIN-KEYWORD,facebook
 - DOMAIN-KEYWORD,fbcdn
 - DOMAIN-KEYWORD,instagram
-- DOMAIN-KEYWORD,musical.ly
 - DOMAIN-KEYWORD,paypal
 - DOMAIN-KEYWORD,porn
 - DOMAIN-KEYWORD,sci-hub
-- DOMAIN-KEYWORD,spotify
 - DOMAIN-KEYWORD,telegram
-- DOMAIN-KEYWORD,tiktok
 - DOMAIN-KEYWORD,twitter
 - DOMAIN-KEYWORD,whatsapp
-- IP-CIDR,101.32.118.0/23
-- IP-CIDR,101.32.96.0/20
 - IP-CIDR,103.2.28.0/22
 - IP-CIDR,103.4.96.0/22
 - IP-CIDR,109.239.140.0/24
@@ -9362,7 +9357,6 @@ payload:
 - IP-CIDR,125.6.149.0/24
 - IP-CIDR,125.6.190.0/24
 - IP-CIDR,129.134.0.0/17
-- IP-CIDR,129.226.0.0/16
 - IP-CIDR,13.32.0.0/15
 - IP-CIDR,13.35.0.0/17
 - IP-CIDR,14.102.250.18/31
@@ -10218,7 +10212,6 @@ No payload found
 - DOMAIN-SUFFIX,ibeatsbydre.cc
 - DOMAIN-SUFFIX,ibeatsbydre.com
 - DOMAIN-SUFFIX,ichat.co.in
-- DOMAIN-SUFFIX,icloud-sandbox.com
 - DOMAIN-SUFFIX,idvd.eu
 - DOMAIN-SUFFIX,igoshopping.net
 - DOMAIN-SUFFIX,ikids.com
@@ -10994,6 +10987,8 @@ No payload found
 - DOMAIN-SUFFIX,tiktokmusic.app
 - DOMAIN-SUFFIX,tiktokv.us
 - DOMAIN-SUFFIX,ttwebview.com
+- DOMAIN-KEYWORD,musical.ly
+- DOMAIN-KEYWORD,tiktok
 - PROCESS-NAME,com.zhiliaoapp.musically
 - DOMAIN-SUFFIX,duboxcdn.com
 - DOMAIN,netflix.com.edgesuite.net
@@ -12088,6 +12083,7 @@ No payload found
 - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
 - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
 - DOMAIN-SUFFIX,spotify-com.akamaized.net
+- DOMAIN-SUFFIX,spotify.app.link
 - IP-CIDR,104.154.127.126/32
 - PROCESS-NAME,com.spotify.music
 - DOMAIN-SUFFIX,aboutfacebook.com
@@ -16426,13 +16422,12 @@ No payload found
 - DOMAIN,books.apple.com
 - DOMAIN,cdp.cloud.unity3d.com
 - DOMAIN,clubhouse.pubnubapi.com
-- DOMAIN,disk.yandex.com
 - DOMAIN,lab.skk.moe
 - DOMAIN,ocsp.int-x3.letsencrypt.org
-- DOMAIN,openaiapi-site.azureedge.net
 - DOMAIN,search.yahoo.co.jp
 - DOMAIN,tv.apple.com
 - DOMAIN,wego.here.com
+- DOMAIN-SUFFIX,api.tiktokv.com
 - DOMAIN-SUFFIX,ask.com
 - DOMAIN-SUFFIX,edx-cdn.org
 - DOMAIN-SUFFIX,ft.com
@@ -18600,6 +18595,7 @@ No payload found
 - PROCESS-NAME,ToDesk_Setup.exe
 - PROCESS-NAME,devcon.exe
 - PROCESS-NAME,mstsc.exe
+- DOMAIN,scholar.google.com
 - DOMAIN-SUFFIX,1lib.cloud
 - DOMAIN-SUFFIX,1lib.domains
 - DOMAIN-SUFFIX,1lib.education
@@ -18684,6 +18680,7 @@ No payload found
 - DOMAIN-SUFFIX,frontiersin.org
 - DOMAIN-SUFFIX,gale.com
 - DOMAIN-SUFFIX,galegroup.com
+- DOMAIN-SUFFIX,geoscienceworld.org
 - DOMAIN-SUFFIX,ggsrv.com
 - DOMAIN-SUFFIX,hindawi.com
 - DOMAIN-SUFFIX,hk1lib.org
