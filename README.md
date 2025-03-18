@@ -25,9 +25,56 @@
 ### **使用案例：**
 
 ```
-asdas
-sdasdasd
-sadasda
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53 
+  ipv6: false
+  default-nameserver:
+    - 8.8.8.8
+    - 8.8.4.4   
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query  
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.2.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+proxies:
+proxy-groups:
+  - { name: "♻️国外代理", type: select, proxies: [] }
+  - { name: "♻️国内直连", type: select, proxies: [] }
+  - { name: "♻️漏网之鱼", type: select, proxies: [] }
+rule-providers:
+
+
+rules:
+  - MATCH,DIRECT
 ```
 
 ---
