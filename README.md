@@ -68,12 +68,25 @@ dns:
 proxies:
 proxy-groups:
   - { name: "♻️国外代理", type: select, proxies: [] }
-  - { name: "♻️国内直连", type: select, proxies: [] }
-  - { name: "♻️漏网之鱼", type: select, proxies: [] }
+  - { name: "♻️国内直连", type: select, proxies: [DIRECT] }
+  - { name: "♻️漏网之鱼", type: select, proxies: [DIRECT] }
 rule-providers:
-
+  daili:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/daili.yaml"
+    path: ./ruleset/daili.yaml
+    interval: 86400
+  zhilian:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/zhilian.yaml"
+    path: ./ruleset/zhilian.yaml
+    interval: 86400
 
 rules:
+  - RULE-SET,daili,♻️国外代理
+  - RULE-SET,zhilian,♻️国内直连
   - MATCH,DIRECT
 ```
 
