@@ -206,8 +206,9 @@ rules:
 ---
 
 ### **数据整合来源:**
-[https://github.com/blackmatrix7/ios_rule_script/tree/a98edee7cd64d64cb58ce26d63d2dbd2475575ad/rule/Clash]([https://](https://github.com/blackmatrix7/ios_rule_script/tree/a98edee7cd64d64cb58ce26d63d2dbd2475575ad/rule/Clash))
+([https://](https://github.com/blackmatrix7/ios_rule_script/tree/a98edee7cd64d64cb58ce26d63d2dbd2475575ad/rule/Clash)
 ### **感谢（不分前后）：**
-[@blackmatrix7]([https://](https://github.com/blackmatrix7))
+
+[@blackmatrix7](https://github.com/blackmatrix7)
 ---
 
