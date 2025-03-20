@@ -67,9 +67,9 @@ dns:
       - 240.0.0.0/4
 proxies:
 proxy-groups:
-  - { name: "♻️国外代理", type: select, proxies: [] }
+  - { name: "🌏国外代理", type: select, proxies: [] }
   - { name: "♻️国内直连", type: select, proxies: [DIRECT] }
-  - { name: "♻️漏网之鱼", type: select, proxies: [DIRECT] }
+  - { name: "🦑漏网之鱼", type: select, proxies: [DIRECT] }
 rule-providers:
   daili:
     type: http
@@ -85,9 +85,9 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,daili,♻️国外代理
+  - RULE-SET,daili,🌏国外代理
   - RULE-SET,zhilian,♻️国内直连
-  - MATCH,♻️漏网之鱼
+  - MATCH,🦑漏网之鱼
 ```
 
 ---
