@@ -74,13 +74,13 @@ rule-providers:
   daili:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/daili.yaml"
+    url: "https://ghfast.top/https://raw.githubusercontent.com/Ekko1048/EkkoClashRule/master/rules/daili.yaml"
     path: ./ruleset/daili.yaml
     interval: 86400
   zhilian:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/zhilian.yaml"
+    url: "[https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/zhilian.yaml](https://ghfast.top/https://raw.githubusercontent.com/Ekko1048/EkkoClashRule/master/rules/zhilian.yaml)"
     path: ./ruleset/zhilian.yaml
     interval: 86400
 
