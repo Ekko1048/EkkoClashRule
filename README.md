@@ -80,14 +80,14 @@ rule-providers:
   zhilian:
     type: http
     behavior: classical
-    url: "[https://cdn.jsdelivr.net/gh/Ekko1048/EkkoClashRule@master/rules/zhilian.yaml](https://ghfast.top/https://raw.githubusercontent.com/Ekko1048/EkkoClashRule/master/rules/zhilian.yaml)"
+    url: "https://ghfast.top/https://raw.githubusercontent.com/Ekko1048/EkkoClashRule/master/rules/zhilian.yaml"
     path: ./ruleset/zhilian.yaml
     interval: 86400
 
 rules:
   - RULE-SET,daili,♻️国外代理
   - RULE-SET,zhilian,♻️国内直连
-  - MATCH,DIRECT
+  - MATCH,♻️漏网之鱼
 ```
 
 ---
