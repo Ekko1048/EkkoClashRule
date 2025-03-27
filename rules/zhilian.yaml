@@ -3961,6 +3961,7 @@ payload:
   - DOMAIN-SUFFIX,microfountain.com
   - DOMAIN-SUFFIX,mieco.net
   - DOMAIN-SUFFIX,mifile.cn
+  - DOMAIN-SUFFIX,migames.com
   - DOMAIN-SUFFIX,migu.cn
   - DOMAIN-SUFFIX,migucc.cn
   - DOMAIN-SUFFIX,migucdn.cn
@@ -18616,6 +18617,7 @@ payload:
   - IP-CIDR,203.17.74.0/23
   - IP-CIDR,203.17.88.0/23
   - IP-CIDR,203.170.58.0/23
+  - IP-CIDR,203.170.58.0/24
   - IP-CIDR,203.171.0.0/22
   - IP-CIDR,203.171.208.0/24
   - IP-CIDR,203.171.224.0/20
