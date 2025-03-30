@@ -298,6 +298,7 @@ payload:
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-KEYWORD,adobe
+  - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,apple-support.akadns.net
   - DOMAIN-KEYWORD,apple.com.akadns.net
@@ -311,6 +312,7 @@ payload:
   - DOMAIN-KEYWORD,binance
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,cn-hk-eq-bcache-
   - DOMAIN-KEYWORD,discovery.uplynk.com
   - DOMAIN-KEYWORD,dlercloud
